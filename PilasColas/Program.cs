@@ -1,6 +1,7 @@
 ﻿using Arreglos;
+using Listas;
 
-Pilas pilas = new Pilas(10);
+Arreglos.Pilas pilas = new Arreglos.Pilas(10);
 
 pilas.Agregar("cero");
 pilas.Agregar("uno");
