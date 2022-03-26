@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PilasColas", "PilasColas\PilasColas.csproj", "{0062F4DA-4DDE-44DC-A2E7-DAD0AB7662AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arreglos", "Arreglos\Arreglos.csproj", "{40F157D3-39FD-4B87-9451-329788327B74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listas", "Listas\Listas.csproj", "{0C9D47B3-4938-47DC-BB7A-5F4A4E7ED8EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0062F4DA-4DDE-44DC-A2E7-DAD0AB7662AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0062F4DA-4DDE-44DC-A2E7-DAD0AB7662AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0062F4DA-4DDE-44DC-A2E7-DAD0AB7662AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0062F4DA-4DDE-44DC-A2E7-DAD0AB7662AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40F157D3-39FD-4B87-9451-329788327B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F157D3-39FD-4B87-9451-329788327B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F157D3-39FD-4B87-9451-329788327B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F157D3-39FD-4B87-9451-329788327B74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C9D47B3-4938-47DC-BB7A-5F4A4E7ED8EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9D47B3-4938-47DC-BB7A-5F4A4E7ED8EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C9D47B3-4938-47DC-BB7A-5F4A4E7ED8EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C9D47B3-4938-47DC-BB7A-5F4A4E7ED8EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10B8973D-8934-4E64-922E-FC9EA92158EB}
+	EndGlobalSection
+EndGlobal
