@@ -25,7 +25,7 @@ namespace Listas
         {
             return (lista.Count == 0);
         }
-
+        //Por que me sale error?
         public void Agregar(string dato)
 
         {
@@ -43,6 +43,28 @@ namespace Listas
             {
                 throw new Exception("Lista Vacia");
             }
+            lista.RemoveAt(0);
+        }
+
+        public string Imprimir()
+        {
+            string datos = string.Empty;
+
+            if (ValidaVacio())
+            {
+                return "lista vacia";
+            }
+
+            int listCount = lista.Count;
+            for (int i = 0; i < listCount; i++)
+            {
+                if (i > 0)
+                {
+                    datos += "\n";
+                }
+                datos += $"[{i}] - {lista[i]}";
+            }
+            return datos;
         }
     }
 }
