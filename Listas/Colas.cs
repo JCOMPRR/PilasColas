@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace Listas
 {
-    internal class Colas
+    public class Colas
     {
+        private string(string) lista;
+        public Colas()
+        {
+            lista = new(string)();
+
+        }
+
+        public void Agregar(string dato)
+
+        {
+            lista.Add(dato);
+        }
     }
 }
