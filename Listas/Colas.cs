@@ -26,6 +26,23 @@ namespace Listas
             return (lista.Count == 0);
         }
 
-        public void
+        public void Agregar(string dato)
+
+        {
+            lista.Add (dato);
+        }
+
+        private bool ValidaVacio()
+        {
+            return lista.Count == 0;
+        }
+
+        public void Eliminar()
+        {
+            if (ValidaVacio())
+            {
+                throw new Exception("Lista Vacia");
+            }
+        }
     }
 }
