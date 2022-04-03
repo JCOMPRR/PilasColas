@@ -8,10 +8,10 @@ namespace Listas
 {
     public class Colas
     {
-        private string(string) lista;
+        private List <string> lista;
         public Colas()
         {
-            lista = new(string)();
+            lista = new List<string>();
 
         }
 
@@ -20,5 +20,12 @@ namespace Listas
         {
             lista.Add(dato);
         }
+
+        private bool ValidaVacio()
+        {
+            return (lista.Count == 0);
+        }
+
+        public void
     }
 }
