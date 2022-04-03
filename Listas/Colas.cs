@@ -25,18 +25,6 @@ namespace Listas
         {
             return (lista.Count == 0);
         }
-        //Por que me sale error?
-        public void Agregar(string dato)
-
-        {
-            lista.Add (dato);
-        }
-
-        private bool ValidaVacio()
-        {
-            return lista.Count == 0;
-        }
-
         public void Eliminar()
         {
             if (ValidaVacio())
