@@ -28,10 +28,10 @@ namespace Listas
         {
             if (ValidaVacio())
             {
-                throw new Exception("Lista Vacia"):
+                throw new Exception("Lista Vacia");
             }
 
-            Listas.RemoveAt(Listas.Count - 1);
+            list.RemoveAt(list.Count - 1);
         }
 
         public string Imprimir()
