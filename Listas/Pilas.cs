@@ -51,7 +51,7 @@ namespace Listas
                     datos += "\n";
                 }
 
-                datos += $"[{i}] - {lista[i]}";
+                datos += $"[{i}] - {list[i]}";
             }
             return datos;
         }
